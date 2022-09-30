@@ -58,14 +58,14 @@ const necromorphs = {
 
         'strategy': ['A Slasher dies immediately after losing both arms.', 'When a leg is severed, a Slasher\'s mobility is severely hindered,and it becomes a much more vulnerable target.', 'Usually the most effective way to kill a Slasher is to dismember one of its legs, and then one of its arms.'] 
     },
-    'unkown creature':{
-        'name': 'Unkown',
+    'unkown':{
+        'name': 'unkown',
 
-        'description': 'unkown creature',
+        'description': 'unkown',
         
-        'attack':['unkown creature'],
+        'attack':['unkown'],
 
-        'strategy': ['unkown creature'] 
+        'strategy': ['unkown'] 
     }
 }
 
@@ -81,7 +81,7 @@ app.get('/api/:necromorph', (request,response)=>{
     if(necromorphs[necromorphName]){
         response.json(necromorphs[necromorphName])
     }else{
-        response.json(rappers['unkown creature'])
+        response.json(necromorphs['unkown'])
     }
 })
 
