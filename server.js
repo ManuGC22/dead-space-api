@@ -95,7 +95,7 @@ const necromorphs = {
         
         'attack':['No records of this creature'],
 
-        'strategy': ['No recors of this creature'] 
+        'strategy': ['No records of this creature'] 
     }
 }
 
