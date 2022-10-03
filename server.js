@@ -72,7 +72,7 @@ const necromorphs = {
 
         'name': 'Puker',
 
-        'description': 'The Cyst is a stationary Necromorph variant.',
+        'description': 'The Puker\'s digestive acids drastically alters their appearance, melting and merging their flesh. The host\'s original legs have entwined, and a clump of intestines, nerves and muscles have grown down to form an additional leg.',
         
         'attack':['Projects corrosive bile.', 'Slashing with its disfigured claws when approached too closely.'],
 
