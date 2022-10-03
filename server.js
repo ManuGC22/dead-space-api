@@ -89,13 +89,13 @@ const necromorphs = {
         'strategy': ['A Slasher dies immediately after losing both arms.', 'When a leg is severed, a Slasher\'s mobility is severely hindered,and it becomes a much more vulnerable target.', 'Usually the most effective way to kill a Slasher is to dismember one of its legs, and then one of its arms.'] 
     },
     'unkown':{
-        'name': 'unkown',
+        'name': 'unkown creature',
 
-        'description': 'unkown',
+        'description': 'No records of this creature',
         
-        'attack':['unkown'],
+        'attack':['No records of this creature'],
 
-        'strategy': ['unkown'] 
+        'strategy': ['No recors of this creature'] 
     }
 }
 
