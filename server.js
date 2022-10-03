@@ -19,7 +19,7 @@ const necromorphs = {
 
         'strategy': ['The Flamethrower is one of the most effective weapons to use on a Brute. It can even be used from the front, as the flames can still reach its back, just keep up a continuous spray of fire.', 'When the Brute charges, use Stasis on it and at the right time, run behind it and shoot its hind leg as much as possible very quickly with either the Plasma Cutter or the Line Gun.'] 
     },
-    'dividers':{
+    'divider':{
         'name': 'Dividers',
 
         'description': 'Dividers are tall, thin Necromorphs with the unique ability to break apart into smaller creatures.',
@@ -28,7 +28,7 @@ const necromorphs = {
 
         'strategy': ['Dividers are always heard shortly before they are encountered, as they emit a deep, loud bellow. ', 'When contact is established with one, freezing it with Stasis and using the Flamethrower or Contact Beam to destroy it is a good tactic.'] 
     },
-    'infectors':{
+    'infector':{
 
         'name': 'Infectors',
 
@@ -38,7 +38,7 @@ const necromorphs = {
 
         'strategy': ['They can impale victims through the forehead with their proboscis.', 'A risky strategy is by baiting an Infector to attack the player, which can prompt a Quick-Time-Event. Winning the event will have Isaac kill the Infector instantly.'] 
     },
-    'pods':{
+    'pod':{
 
         'name': 'Pods',
 
@@ -47,6 +47,36 @@ const necromorphs = {
         'attack':['Whips small projectiles to deal damage.'],
 
         'strategy': ['Some weapons are better suited for severing a Pods tentacle, more specifically weapons with a wide-ranged blast such as the Line Gun.', 'After a Pod fires a projectile it takes time for it to "recharge",giving you a small window of opportunity to sever the tentacle.'] 
+    },
+    'swarmers':{
+
+        'name': 'Swarmers',
+
+        'description': 'Swarmers are tiny Necromorphs that appear to be composed only of re-animated bits of flesh that attack in large numbers and attempt to latch onto Isaac and overwhelm him.',
+        
+        'attack':['They lunge upon their foes en mass, biting unfortunate victims until they succumb.'],
+
+        'strategy': ['A shot of Stasis can slow down an entire swarm, making them easier to kill and escape from.', 'The best weapons for eliminating a swarm are those with splash-damage weaponry.','The Flamethrower is a great choice for clearing a swarm if you\'re carrying it.'] 
+    },
+    'cyst':{
+
+        'name': 'Cyst',
+
+        'description': 'The Cyst is a stationary Necromorph variant.',
+        
+        'attack':['Excreting organic pods that explodes and damages surrounding targets.'],
+
+        'strategy': ['One strategy is to turn your back to the Cyst when you have found it and slowly walk backwards to it. As soon as you hear it launch the mine,  sprint straight forward to avoid the explosion. The Stasis Module can help with this.'] 
+    },
+    'puker':{
+
+        'name': 'Puker',
+
+        'description': 'The Cyst is a stationary Necromorph variant.',
+        
+        'attack':['Projects corrosive bile.', 'Slashing with its disfigured claws when approached too closely.'],
+
+        'strategy': ['It is always recommended to engage the Puker from a distance or at least put some space between you and it.','If you choose to attack the Puker up close, it is advised that you Stasis it in order to stunt its reflexes.'] 
     },
     'slasher':{
 
