@@ -1,0 +1,57 @@
+
+body{
+    background-image: linear-gradient(to bottom, #03043f, #1d002a, #1e001a, #16000b, #000000);
+}
+
+h1{
+    text-align: center;
+    margin-top: -5px;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h1,h2{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.container{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 920px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black 5px;
+
+}
+
+p,ul{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    text-align: justify;
+}
+li{
+    margin-bottom: 10px;
+}
+
+.code-container {
+    width: 90%;
+    max-width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.editor{
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    font-size:12px;
+}

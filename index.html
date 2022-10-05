@@ -4,13 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap" rel="stylesheet"> 
+    <title>Dead Space API</title>
 </head>
+
 <body>
-    <h1>Dead Space API</h1>
-    <input type="text">
-    <button>A Man Needs A Name</button>
-    <h2>Birth Name: </h2>
-    <script src="js/main.js"></script>
+
+    <section class="container">
+        <h1>Dead Space API</h1>
+    
+        <section>
+            <h2>Overview</h2>
+    
+            <p>
+                The objective of this API is for new or even experienced players of the Dead Space franchise, to know about all of the necromorphs (which are the in-game enemies) that they will encounter, what are their attacks and what strategy to use to defeat them.
+            </p>
+        </section>
+    
+        <section>
+            <h2>Tutorial</h2>
+    
+            <p>Simply copy the url https://deadspace-api.cyclic.app/ and fetch it through your client-side Javascript.</p>
+    
+            <p>To access the JSON data containing the information about a specific necromorph simply use the url and add the name of the necromorph as the last query parameter.</p>
+            
+            <p>Each necromorph data contains their name, description, attacks and strategy to defeat them.</p>
+    
+            <p>After you access the data through writing the name as the query parameter, you can access.</p>
+    
+            <ul>
+                <li>data['name'] to access the name of the necromorph.</li>
+                <li>data['description'] to access the description of the necromorph.</li>
+                <li>data['attack'] to access the attacks of the necromorph.</li>
+                <li>data['strategy'] to access the strategies to defeat the necromorphs.</li>
+            </ul>
+    
+           
+    
+        </section>
+    
+        <section>
+            <h2>Example</h2>
+            <p>First fetch the url and add the last query parameter either with  a constant value or a dynamic value. In this example we are fetching the slasher necromorph name.</p>
+
+            <p>Then we access the required information through the object name.</p>
+            <p>Lastly we can display that information in our website using the DOM.</p>
+            <div class="code-container">
+                <div class="editor">
+let response = fetch(`https://deadspace-api.cyclic.app/api/slasher`)
+data = response.json()
+
+
+let necroName = data['name']
+
+h1.innerText = necroName
+                </div>
+            </div>
+
+            
+
+        </section>
+    
+    </section>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.11.2/ace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.11.2/ace.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
